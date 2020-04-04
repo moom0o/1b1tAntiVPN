@@ -1,0 +1,19 @@
+<center>
+  Enter your username into this box and submit it to get whitelisted from the antivpn. Make sure your name is properly capitalized.
+  
+  <html>
+  <head>
+    <title>1b1t whitelist</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="/addname" method="POST" enctype="multipart/form-data">
+      <input type="text" name="username" />
+      <div class="g-recaptcha" data-sitekey="YOURSITEKEYHERE"></div>
+      <br/>
+      <input type="submit" value="Submit">
+
+    </form>
+  </body>
+</html>
+</center>
